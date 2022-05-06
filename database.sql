@@ -4,7 +4,7 @@ CREATE DATABASE budget
 CREATE TABLE fact(  
     id int NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT 'Primary Key',
     concept VARCHAR(255) NOT NULL COMMENT 'concept',
-    amount FLOAT(50) NOT NULL COMMENT 'amount',
+    amount FLOAT NOT NULL COMMENT 'amount',
     type VARCHAR(255) NOT NULL COMMENT 'type',
     create_time DATETIME NOT NULL COMMENT 'Create Time',
 )ENGINE=InnoDb;
